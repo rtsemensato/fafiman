@@ -10,12 +10,20 @@
     <!-- Define your beans here -->
     
     <!-- define the dependency -->
-    <bean id="theBean"
-          class="br.com.fafiman.springxmlconfig.Bean">
+    <bean id="publicacao"
+          class="br.com.fafiman.springxmlconfig.entity.Publicacao">
     </bean>
-    
-    <bean id="animal"
-          class="br.com.fafiman.springxmlconfig.Animal">
+
+    <bean id="pessoa"
+          class="br.com.fafiman.springxmlconfig.entity.Pessoa">
+    </bean>
+
+    <bean id="operacao"
+          class="br.com.fafiman.springxmlconfig.entity.Operacao">
+    </bean>
+
+    <bean id="exemplar"
+          class="br.com.fafiman.springxmlconfig.entity.Exemplar">
     </bean>
     
 </beans>
